@@ -41,7 +41,7 @@
                         <div class="card login-form mb-0">
                             <div class="card-body pt-5">
                                 
-                                    <a class="text-center" href="index.html"> <h4>Rosella</h4></a>
+                                <h4 class="text-center">NexGen Wheelchair</h4>
         
                                 <form class="mt-5 mb-5 login-input">
                                     <div class="form-group">
@@ -53,9 +53,9 @@
                                     <div class="form-group">
                                         <input type="password" class="form-control" placeholder="Password" required>
                                     </div>
-                                    <button class="btn login-form__btn submit w-100">Sign in</button>
+                                    <button class="btn login-form__btn submit w-100" id="myButton">Register</button>
                                 </form>
-                                    <p class="mt-5 login-form__footer">Have account <a href="page-login.html" class="text-primary">Sign Up </a> now</p>
+                                    <p class="mt-5 login-form__footer">Have account <a href="page-login.html" class="text-primary">Sign In </a> now</p>
                                     </p>
                                 </div>
                             </div>
@@ -77,6 +77,11 @@
     <script src="js/settings.js"></script>
     <script src="js/gleek.js"></script>
     <script src="js/styleSwitcher.js"></script>
+    <script type="text/javascript">
+        document.getElementById("myButton").onclick = function () {
+            location.href = "page-login.html";
+        };
+    </script>
 </body>
 </html>
 
