@@ -9,7 +9,7 @@
     <!-- theme meta -->
     <meta name="theme-name" content="quixlab" />
   
-    <title>Quixlab - Bootstrap Admin Dashboard Template by Themefisher.com</title>
+    <title>EEG Control</title>
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
     <!-- Pignose Calender -->
@@ -348,12 +348,12 @@
           </div>
         </div>
         <div class="content-body">
-            <div class="container-fluid">
+            <div class="container-fluid mt-3">
                 <div class="row">
                     <div class="container">
                       <div class="row">
                         <div class="col-4">
-                          <div class="p-2 mb-2 bg-success text-white">Current Mode: Voice</div>
+                          <div class="p-2 mb-2 bg-success text-white">Current Mode: EEG</div>
                         </div>
                         <div class="col-3">
                           
@@ -374,50 +374,84 @@
                       </div>
                     </div>
                 </div>
-                <br>
-                <br>
-                <br>
-                <div class="row">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-1">
-                        
-                      </div>
-                      <div class="col-4">
-                        <img src="./images/users/microphone.JPG" width="100%" alt="">
-                      </div>
-                      <div class="col-1">
-                        
-                      </div>
-                      <div class="col-5">
-                        <br>
-                        <br>
-                        <h2>Tap to speak</h2>
-                      </div>
-
-                    </div>
-                  </div>
-              </div>
-                <br>
-
-                <div class="row">
-                  <div class="col-12 m-b-30">
-                    
-                    <div class="row">
-                      <div class="col-md-6 col-lg-3">
-                        <div class="card">
-                          <!-- <img class="img-fluid" src="images/big/img1.jpg" alt="" /> -->
-                          <div class="card-body">
-                            <h4 class="d-inline"><b>Speech: </b> "Go Right..."</h4>
-                            <br>
-                            <br>
-                            <h4 class="d-inline"><b>Command: </b> Right</h4>
-                          </div>
+                <!-- <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="card gradient-2">
+                            <div class="card-body">
+                                
+                                <h3><u>Wheelchair Status</u> </h3>
+                                <p>Battery: 10%</p>
+                                <p>Voltage: 12V</p>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <h3><u>Operation System Status</u> </h3>
+                                <p>CPU: 10%</p>
+                                <p>RAM: 2 GB</p>
+                                <p>Temperature: 35℃</p>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                            </div>
+                            
                         </div>
+                    </div>
+                </div> -->
+                
+                
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                      <div class="card-header bg-white">
+                          <h5 class="card-title">EEG Signal</h5>
+                        </div>
+                        <img class="img-float" src="images/eegplot2.png" alt="">
+                      <!-- <div class="card-body">
+                        <p class="card-text">
+                          This is a wider card with supporting text and below as a
+                          natural lead-in to the additional content. This content
+                          is a little bit longer.
+                        </p>
+                      </div> -->
+                      <!-- <div class="card-footer">
+                        <p class="card-text d-inline">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                        </p>
+                        <a href="#" class="card-link float-right"><small>Card link</small></a>
+                      </div> -->
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <div>
+                            <h4 class="card-title">
+                                Brain Signal Status
+                            </h4>
+                        </div>
+                        <div>
+                            <h6 >Attention Level : </h6>
+                            <div class="progress" style="height: 9px">
+                                <div class="progress-bar bg-success" style="width: 90%;" role="progressbar">90%</div>
+                            </div>
+                        </div>
+                        <br>
+                        <div>
+                            <h6>Direction : 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                </svg>
+                            </h6>
+                        </div>
+                        
                       </div>
                     </div>
                   </div>
-                </div>
+                
+                <br>
                 <br>
                 <br>
                 <br>
